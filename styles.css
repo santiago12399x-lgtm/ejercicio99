@@ -7,7 +7,7 @@ body {
 
 .hero {
   padding: 25px 8%;
-  background-color: #26372c;
+  background-color: #3b1f1f;
   color: white;
 }
 
@@ -38,8 +38,8 @@ body {
 .boton {
   display: inline-block;
   padding: 10px 16px;
-  background-color: #c8f169;
-  color: #222;
+  background-color: #d93636;
+  color: white;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -88,21 +88,21 @@ body {
 }
 
 .numero {
-  color: #66852f;
+  color: #b3261e;
   font-weight: bold;
 }
 
 .categoria {
   display: inline-block;
   padding: 5px 10px;
-  background-color: #eaf0df;
+  background-color: #f8dddd;
   border-radius: 15px;
   font-size: 14px;
 }
 
 .consejo {
   padding: 22px;
-  background-color: #e8eddc;
+  background-color: #f3e2e2;
   border-radius: 8px;
 }
 
