@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+.hero {
+  padding: 25px 8%;
+  background-color: #26372c;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.hero-contenido {
+  max-width: 600px;
+  padding: 60px 0;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #c8f169;
+  color: #222;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.intro,
+.modelos,
+.consejo {
+  width: 85%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.intro {
+  text-align: center;
+  max-width: 700px;
+}
+
+.seccion-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.tarjeta {
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.tarjeta-contenido {
+  padding: 18px;
+}
+
+.numero {
+  color: #66852f;
+  font-weight: bold;
+}
+
+.categoria {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #eaf0df;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.consejo {
+  padding: 22px;
+  background-color: #e8eddc;
+  border-radius: 8px;
+}
+
+.pie {
+  padding: 20px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .tarjetas {
+    grid-template-columns: 1fr;
+  }
+
+  .seccion-titulo {
+    display: block;
+  }
+}
